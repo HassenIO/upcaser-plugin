@@ -1,0 +1,32 @@
+{
+  "name": "updaser-plugin",
+  "version": "0.1.0",
+  "description": "Just a playground to create a NPM plugin",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "build src -d build"
+  },
+  "babel": {
+    "presets": ["latest"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htaidirt/upcaser-plugin.git"
+  },
+  "keywords": [
+    "NPM",
+    "plugin",
+    "upcase"
+  ],
+  "author": "Hassen Taidirt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/htaidirt/upcaser-plugin/issues"
+  },
+  "homepage": "https://github.com/htaidirt/upcaser-plugin#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
